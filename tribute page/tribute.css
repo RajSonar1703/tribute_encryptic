@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+}
+.head-section{
+    background:url("music\ background.jpg");
+    height:300px;
+    width:100%;
+}
+.title-12{
+    color:antiquewhite;
+    margin-left:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(50, 45, 45, 0.285);
+}
+.head-section .navbar .nav-content .nav-bar{
+    font-size:large;
+    font-weight:bolder;
+}
+
+.head-section .navbar .nav-content .nav-bar .navigation{
+    list-style-type: none;
+    gap:50px;
+    color:whitesmoke;
+    display:flex;
+    padding-top:10px;
+    justify-content:space-evenly;
+}
+.head-section .navbar .nav-content .nav-bar .navigation li span{
+    font-size:xx-large;
+}
+
+
+.title-1 .title-2 h1{
+    margin-left:50vh;
+    margin-top:16vh;
+    font-size:70px;
+    /* padding-top:30px; */
+}
+.main-section{
+    padding-top:80px;
+}
+.main-section .container-1 .container-name .title-name{
+    margin-top:130vh;
+    margin-left:10vh;
+    color:#b81f1f;
+    font-size:100px;
+    /* text-decoration:underline; */
+}
+.main-section .container-1 .container-name{
+    margin-top:12vh
+}
+.main-section .container-1 .container-name .date{
+    font-size:25px;
+    font-weight:bold;
+    margin-left:700px
+}
+.main-section .container-1{
+    display:flex;
+    justify-content: space-between;
+}
+.main-section .container-1 .img{
+    border-radius:10px;
+    box-shadow:2px 2px 18px black;
+    margin-right:25vh;
+}
+.main-section .container-1 .img img{
+    border-radius:10px;
+    height:300px;
+    width:350px;
+}
+.footer-container{
+    /* margin-left:400px; */
+    margin-bottom:0;
+    position:fixed;
+    /* display: flex;
+    align-items:center;
+    justify-content: center; */
+    background-color:antiquewhite;
+    height:50px;
+    width:100%;
+    padding-top:15px;
+    font-size:x-large;
+    font-weight:bolder;
+}
+.footer-container .footer-1 ul{
+    display:flex;
+    justify-content:space-evenly;
+    gap:100px;
+    list-style-type: none;
+    /* background-color:rgb(252, 228, 195); */
+}
+.footer-container .footer-1 ul li{
+    height:200px;
+    width:90px;
+    text-align: center;;
+    background-color:rgb(252, 228, 195);
+}
+.footer-container .footer-1 ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+/* about file */
+.info-container{
+    margin-top:30px;
+    background-color:beige;
+    box-shadow:2px 2px 8px black;
+    border-radius:10px;
+    margin:100px;
+    margin-top:50px;
+    padding:30px;
+}
+.abt-header{
+    background:url("music\ background.jpg");
+    height:350px;
+    display:flex;
+    justify-content:space-between;
+}
+.abt-header .abt-name{
+    padding:100px;
+}
+.abt-header .abt-name .abt-name1{
+    margin-top:20px;
+    font-size:80px;
+    color:#000000;
+    font-weight:800;
+}
+.abt-header .abt-picture{
+    padding:30px;
+    padding-right:100px;
+}
+.abt-header .abt-picture .abt-picture-1{
+    box-shadow:2px 2px 8px black;
+    border-radius:10px;
+}
+.abt-header .abt-picture .abt-picture-1 img{
+    border-radius:10px;
+    height:300px;
+    width:350px;
+}
+.info-container .info-container-1 .info{
+    text-align:center;
+    font-size:large;
+    font-weight:100;
+    line-height: 50px;
+}
+.info-container .info-container-1 .info span{
+    color:red;
+    font-weight:bold;
+    font-size:20px;
+}
+
+/* gallery section */
+
+.gal-picture{
+    display:flex;
+    justify-content:space-evenly;
+    padding:50px;
+}
+.gal-picture .gal-photo .gal-photo-1{
+    margin-top:130px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+}
+.gal-picture .gal-photo .gal-photo-1 img{
+    border-radius:30px;
+}
+.gal-picture-1 .gal-photo .gal-photo-2{
+    margin-top:10px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+}
+.gal-picture-1 .gal-photo .gal-photo-2 img{
+    border-radius:30px;
+}
+.gal-picture .gal-photo .gal-photo-3{
+    margin-top:130px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+}
+.gal-picture .gal-photo .gal-photo-3 img{
+    border-radius:30px;
+    height:300px;
+    width:500px;
+}
+.gal-picture-1{
+    display:flex;
+    justify-content:space-evenly;
+    padding:50px;
+}
+.gal-picture .gal-photo-a .gal-photo-4{
+    margin-top:130px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+    height:300px;
+    width:300px;
+}
+.gal-picture .gal-photo-a .gal-photo-4 img{
+    border-radius:30px;
+    height:300px;
+    width:300px;
+}
+.gal-picture-2 .gal-photo-a .gal-photo-5{
+    margin-top:60px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+    height:300px;
+    width:400px;
+    padding-top:40px;
+    padding-bottom:0;
+}
+.gal-picture-2 .gal-photo-a .gal-photo-5 img{
+    border-radius:30px;
+    height:280px;
+    width:400px;
+    margin-bottom:0;
+}
+.gal-picture-1 .gal-photo-a .gal-photo-6{
+    margin-top:50px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+    height:400px;
+    width:300px;
+}
+.gal-picture-1 .gal-photo-a .gal-photo-6 img{
+    border-radius:30px;
+    height:400px;
+    width:300px;
+}
+.gal-picture-2{
+    display:flex;
+    justify-content:space-evenly;
+    padding:50px;
+}
+.gal-picture-2 .gal-photo-b .gal-photo-7{
+    margin-top:70px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+    height:300px;
+    width:300px;
+}
+.gal-picture-2 .gal-photo-b .gal-photo-7 img{
+    border-radius:30px;
+    height:300px;
+    width:300px;
+}
+.gal-picture-2 .gal-photo-b .gal-photo-8{
+    margin-top:70px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+    height:300px;
+    width:300px;
+}
+.gal-picture-2 .gal-photo-b .gal-photo-8 img{
+    border-radius:30px;
+    height:300px;
+    width:300px;
+}
+.gal-picture-1 .gal-photo-b .gal-photo-9{
+    margin-top:50px;
+    box-shadow:3px 3px 9px black;
+    border-radius:30px;
+    height:470px;
+    width:300px;
+}
+.gal-picture-1 .gal-photo-b .gal-photo-9 img{
+    border-radius:30px;
+    height:470px;
+    width:300px;
+}
+
+
